@@ -47,6 +47,7 @@ void loop() {
           digitalWrite(LED_VERDE, LOW);
         }
         https.end();
+        delete client;
        }
     }
   } else {
